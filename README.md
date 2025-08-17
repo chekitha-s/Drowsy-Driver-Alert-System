@@ -22,7 +22,7 @@ playsound – audio alerts
 2. Detect faces using dlib’s HOG + Linear SVM detector.
 3. Extract eye landmarks from the 68-point model.
 4. Compute the eye aspect ratio (EAR):
-    Eyes open → Active
-    Eyes slightly closed → Drowsy
-    Eyes closed for several frames → Sleeping
+    i. Eyes open → Active
+    ii. Eyes slightly closed → Drowsy
+    iii. Eyes closed for several frames → Sleeping
 5. Trigger audio alarms for Drowsy/Sleeping states.
